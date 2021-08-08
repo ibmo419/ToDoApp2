@@ -36,7 +36,7 @@ function TodoList() {
     }
     return (
         <div>
-        <h1>whrite below you will do for today ?</h1>
+        <h1>write below what you will do for today ?</h1>
         <TodoForm onSubmit={addTodo}/> 
         <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
         </div>
